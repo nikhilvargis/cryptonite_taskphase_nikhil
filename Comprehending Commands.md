@@ -60,4 +60,28 @@ pwn.college{cJwn1ubkRRsXHSJmIKLP1GzeOCf.dBTN4QDL4QTN0czW}
 ```
 
 ## An Epic Filesystem Quest
+Several commands using the cat, cd and ls commands. To read files without 'cd'ing into the directory, we use the ls command on the absolute path provided and then invoke the cat command.
+### flag:
+```
+pwn.college{0lvttStl9v5ze3YKoibqpoWrD_A.dljM4QDL4QTN0czW}
+```
+## Making Directories
+Using the 'mkdir' command we create a new directory pwn. We then create a new file 'college' in the pwn directory and invoke the /challenge/run command to obtain the flag
+### flag:
+```
+pwn.college{Esv4phRWhErpJe04cKnZg_w78gD.dFzM4QDL4QTN0czW}
+```
+
+## Finding Files
+I used the find / -name flag comand to find all the directories with the file flag in them. I then used the cat command to obtain the flag through trial and error.
+### flag 
+```
+pwn.college{gB29V7ZJNkawNJLB7qCWhJDVelk.dJzM4QDL4QTN0czW}
+```
+## Linking files
+We use the ln -s file to create symbolic links between files to access the same file from different paths. Here we symlink /flag to ~/not-the-flag and ivoke the /challenge/catflag command to obtain the flag.
+### flag
+```
+pwn.college{snnvqQM6brW4VfXJxhEqS0Bnplf.dlTM1UDL4QTN0czW}
+```
  
