@@ -39,8 +39,10 @@ We use ' tee test' in between /challenge/pwn and /challenge/college to check the
 ### flag:
 ```pwn.college{QTfCxxpHa6Nv3vI4N_YlCuJSolz.dFjM5QDL4QTN0czW}```
 ## Writing mulitple programs
+In this challenge, we use the /challenge/hack | tee >(/challenge/the) | tee >(/challenge/planet),  we duplicate its output as input to both the /challenge/the ad /challenge/planet.
 ### flag:
-``` ```
-## Redirecting output
+```pwn.college{wNU3k_mgcJgUpKaDupLFdRaZZZO.dBDO0UDL4QTN0czW} ```
+## Split-piping stderr and stdout
+We use all what we have learnt in the previous challenges and implement it here. Using /challenge/hack > >( /challenge/planet ) 2> >( /challenge/the ) we obtain the flag. 
 ### flag:
-``` ```
+```pwn.college{AKuZCMl0slzSkuzTu4e4OVTXnKr.dFDNwYDL4QTN0czW} ```
