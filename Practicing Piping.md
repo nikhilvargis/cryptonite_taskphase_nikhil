@@ -6,7 +6,7 @@ We learn that we can redirect output of any command to a file. Hence in this cha
 pwn.college{0OkNiYGSWuQaWDkMrxmRhXiGTLB.dRjN1QDL4QTN0czW}
 
 ## Redirecting more output
-same process as the previous one and reda
+same process as the previous one and read the output
 ### flag:
 pwn.college{YER-TWjM8AjA3nekldH2MoF96Ix.dVjN1QDL4QTN0czW}
 
