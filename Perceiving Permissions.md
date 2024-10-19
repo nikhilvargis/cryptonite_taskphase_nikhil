@@ -25,19 +25,19 @@ We combine what we learned in the previous 2 challenges.
 ### flag:
 ``` ```
 
-## Changing File Ownership
+## Executable Files
 
 
 ### flag:
 ``` ```
 
-## Changing File Ownership
+## Permission Tweaking Practice  
 
 
 ### flag:
 ``` ```
 
-## Changing File Ownership
+## The SUID Bit
 
 
 ### flag:
